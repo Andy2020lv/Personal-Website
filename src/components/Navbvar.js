@@ -6,16 +6,16 @@ export default function Navbar() {
       <nav>
         <ul>
           <li>
-            <a href="">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="">About</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
