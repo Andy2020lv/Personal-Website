@@ -13,12 +13,19 @@ export default function Projects(props) {
       >
         <h1 className="project-title">{props.title}</h1>
         <div className="tech-stack">
-          <div className="tech">MongoDB</div>
-          <div className="tech">JS</div>
-          <div className="tech">React</div>
+          {props.tech.map((element) => (
+            <div className="tech">{element}</div>
+          ))}
+          {/* <div className="tech">JS</div>
+          <div className="tech">React</div> */}
         </div>
         <p>{props.description}</p>
-        <button className="button">Source code</button>
+        <a href={props.srcCode} className="button">
+          Source code
+        </a>
+        <a href={props.live} className="button">
+          See live
+        </a>
       </div>
       <div
         data-aos="slide-left"

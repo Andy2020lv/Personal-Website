@@ -34,6 +34,9 @@ function App() {
             title={project.title}
             description={project.description}
             img={project.img}
+            srcCode={project.srcCode}
+            live={project.live}
+            tech={project.tech}
           />
         ))}
       </div>

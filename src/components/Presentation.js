@@ -29,8 +29,14 @@ export default function Presentation() {
         data-aos-delay="600"
         className="icons"
       >
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-solid fa-file"></i>
+        <a href="https://github.com/Andy2020lv">
+          {" "}
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.docdroid.net/2IyZgPU/andy-hernandez-cv-pdf">
+          {" "}
+          <i class="fa-solid fa-file"></i>
+        </a>
       </div>
     </div>
   );
