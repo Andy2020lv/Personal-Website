@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 1rem;
+}
+.container-fluid {
+  padding: 0;
+  background-color: #cff5e7;
+}
+
+/*////////////////////// Navbar //////////////////////////////*/
+
+/* .navbar-container {
+  display: flex;
+} */
+
+.navbar-container {
+  padding-top: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  text-decoration: none;
+  border: 0.5rem solid;
+  padding: 10px 20px;
+  color: #fefcf3;
+  font-weight: 900;
+
+  /* margin: 1rem 0.5rem; */
+  border-color: white;
+  border-width: 3px;
+}
+
+nav a:hover {
+  background-color: #fefcf3;
+  color: #cff5e7;
+}
+
+nav ul > li {
+  margin: 10px 0;
+  display: inline-block;
+}
+
+@media (min-width: 600px) {
+  nav ul {
+    display: inline-block;
+  }
+}
+
+/* /////////////// Homepage /////////////////////// */
+.presentation {
+  height: 45vh;
+  /* min-height: 60vh; */
+  margin: 6rem 1rem;
+}
+
+.presentation strong {
+  color: white;
+  font-weight: 900;
+}
+
+.icons i {
+  font-size: 2rem;
+  color: white;
+  margin: 1rem;
+  /* color: white; */
+}
+
+/* ///////////////// Skills //////////////// */
+
+.skills {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.skills-elements {
+  text-align: left;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+/* ///////////////// Projects ///////////////// */
+
+.projects {
+  background-color: #cff5e7;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.projects .project-title {
+  font-weight: 700;
+}
+
+.projects h1 {
+  font-weight: 800;
+}
+
+.project-element {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.tech {
+  border: 2rem solid;
+  border-color: black;
+  border-width: 2px;
+  max-width: 7rem;
+  min-width: 3rem;
+  background-color: grey;
+  margin: 05px;
+  font-weight: 700;
+  color: white;
+}
+
+.tech-stack {
+  display: flex;
+}
+
+.button {
+  text-decoration: none;
+  border: 0.5rem solid;
+  padding: 10px 20px;
+  color: #fefcf3;
+  font-weight: 900;
+  background-color: #cff5e7;
+
+  /* margin: 1rem 0.5rem; */
+  border-color: white;
+  border-width: 3px;
+  margin-bottom: 3rem;
+}
+
+.button:hover {
+  background-color: #fefcf3;
+  color: #cff5e7;
+}
+
+.project-image {
+  width: 90%;
+}

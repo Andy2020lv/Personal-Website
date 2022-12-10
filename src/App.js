@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Navbar from "./components/Navbvar";
+import Presentation from "./components/Presentation";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import ProjectsData from "./components/ProjectsData";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <Navbar />
+      <Presentation />
+      <Skills />
+      {ProjectsData.map((project) => (
+        <Projects
+          title={project.title}
+          description={project.description}
+          img={project.img}
+        />
+      ))}
     </div>
   );
 }
