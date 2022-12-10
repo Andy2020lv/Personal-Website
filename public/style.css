@@ -145,6 +145,7 @@ nav ul > li {
   background-color: #02aab0;
   text-align: center;
   padding: 2rem 0;
+  color: white;
 }
 
 .projects .project-title {
@@ -246,6 +247,9 @@ nav ul > li {
 
 .contact {
   background-color: #02aab0;
+
+  color: white;
+
   text-align: center;
   padding: 1rem;
 }

@@ -21,7 +21,14 @@ export default function Presentation() {
       >
         A full stack web developer.
       </h1>
-      <div className="icons">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
+        data-aos-delay="600"
+        className="icons"
+      >
         <i class="fa-brands fa-github"></i>
         <i class="fa-solid fa-file"></i>
       </div>
