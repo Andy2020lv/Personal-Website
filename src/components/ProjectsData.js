@@ -5,7 +5,7 @@ export default [
   {
     title: "Star Gym Toribio",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at purus vel velit accumsan congue.",
+      "I created a static website to showcase the gym y currently work out at. It is being used as a way to share the gm more broadly.",
     tech: ["Js", "React"],
     img: project1,
     srcCode: "https://github.com/Andy2020lv/Gym-project",
@@ -14,7 +14,7 @@ export default [
   {
     title: "Quiz",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at purus vel velit accumsan congue.",
+      "A quiz game that promps you 5 different multiple-choice questions, made using the Open Trivia Database.",
     tech: ["Js", "React", "Opentdb"],
     img: project2,
     srcCode: "https://github.com/Andy2020lv/Quiz",

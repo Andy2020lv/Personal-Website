@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  padding: 0.5npmrem;
+  padding: 0.5rem;
   font-family: "Montserrat", sans-serif;
 }
 @media (min-width: 40em) {
@@ -221,14 +221,14 @@ nav ul > li {
 /* ///////////// About //////////////// */
 .about-container {
   background-color: white;
-  height: 120vh;
+  height: 130vh;
   padding: 6rem 0;
   text-align: center;
   margin-bottom: 4rem;
 }
 
 .about-container img {
-  width: 100%;
+  width: 80%;
   margin: 2rem 0;
 }
 
@@ -250,7 +250,7 @@ nav ul > li {
   }
 
   .about-container img {
-    width: 30%;
+    width: 20%;
     margin-left: 10rem;
   }
 }

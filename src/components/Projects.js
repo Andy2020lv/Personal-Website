@@ -20,10 +20,20 @@ export default function Projects(props) {
           <div className="tech">React</div> */}
         </div>
         <p>{props.description}</p>
-        <a href={props.srcCode} className="button">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href={props.srcCode}
+          className="button"
+        >
           Source code
         </a>
-        <a href={props.live} className="button">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href={props.live}
+          className="button"
+        >
           See live
         </a>
       </div>
