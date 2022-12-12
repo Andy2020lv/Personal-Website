@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  padding: 1rem;
+  padding: 0.5npmrem;
   font-family: "Montserrat", sans-serif;
 }
 @media (min-width: 40em) {
@@ -266,7 +266,7 @@ nav ul > li {
   padding: 1rem;
 }
 
-.inputs {
+form {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -285,7 +285,6 @@ nav ul > li {
     padding: 5rem;
   }
   .inputs {
-    /* max-width: 80rem; */
     width: 60%;
   }
   .btn-contact {

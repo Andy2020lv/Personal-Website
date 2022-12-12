@@ -5,7 +5,7 @@ export default function Presentation() {
     <div className="presentation colored">
       <h1
         data-aos="fade-zoom-in"
-        data-aos-offset="400"
+        data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         data-aos-duration="800"
         className="presentation-text"
